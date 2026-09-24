@@ -2,10 +2,6 @@
 
 Full-stack stock paper-trading platform with live quote search, buying-power checks, watchlists, trade history, JWT authentication, admin review tools, and a Spring Boot/PostgreSQL backend.
 
-[Live App](https://ledger-one-mocha.vercel.app) · [Backend Health](https://ledgerone-api-litx.onrender.com/actuator/health) · [API Status](https://ledgerone-api-litx.onrender.com/api/system/status)
-
-![LedgerOne account dashboard](docs/assets/ledgerone-dashboard.png)
-
 ## Overview
 
 LedgerOne is a production-style paper trading app. A user signs in, receives one funded paper trading account with `$100,000` buying power, searches real stock symbols, reviews live quote data, places simulated buy/sell orders, tracks holdings, and monitors risk/account activity.
