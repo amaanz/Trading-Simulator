@@ -1,9 +1,9 @@
-package com.ledgerone.controller;
+package com.tradingsim.controller;
 
-import com.ledgerone.dto.AccountDtos;
-import com.ledgerone.dto.ApiResponse;
-import com.ledgerone.security.CurrentUser;
-import com.ledgerone.service.AccountService;
+import com.tradingsim.dto.AccountDtos;
+import com.tradingsim.dto.ApiResponse;
+import com.tradingsim.security.CurrentUser;
+import com.tradingsim.service.AccountService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
