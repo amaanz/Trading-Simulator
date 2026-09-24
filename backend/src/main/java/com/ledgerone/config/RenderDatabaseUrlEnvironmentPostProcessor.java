@@ -1,4 +1,4 @@
-package com.ledgerone.config;
+package com.tradingsim.config;
 
 import java.net.URI;
 import java.net.URLDecoder;
