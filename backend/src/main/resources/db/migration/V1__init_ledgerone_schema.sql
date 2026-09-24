@@ -143,8 +143,8 @@ CREATE INDEX idx_risk_open ON risk_alerts(resolved, created_at DESC);
 INSERT INTO roles (id, name) VALUES (1, 'USER'), (2, 'ADMIN');
 
 INSERT INTO users (id, email, password_hash, full_name, status, enabled, created_at, updated_at) VALUES
-('11111111-1111-1111-1111-111111111111', 'admin@ledgerone.com', '$2y$12$tleZJGZpdExu.DcAecTaK.goVxllSgvJUNO0Mv27RwcyACRoIJw4a', 'LedgerOne Administrator', 'ACTIVE', TRUE, NOW() - INTERVAL '45 days', NOW()),
-('22222222-2222-2222-2222-222222222222', 'user@ledgerone.com', '$2y$12$htEZEHKFiFq94xJ/JKow/ev8SIBexiw7NW7FTFNI3ET1rdtkjRw8C', 'Ashish Mishra', 'ACTIVE', TRUE, NOW() - INTERVAL '30 days', NOW());
+('11111111-1111-1111-1111-111111111111', 'admin@tradingsim.com', '$2y$12$tleZJGZpdExu.DcAecTaK.goVxllSgvJUNO0Mv27RwcyACRoIJw4a', 'tradingsim Administrator', 'ACTIVE', TRUE, NOW() - INTERVAL '45 days', NOW()),
+('22222222-2222-2222-2222-222222222222', 'user@tradingsim.com', '$2y$12$htEZEHKFiFq94xJ/JKow/ev8SIBexiw7NW7FTFNI3ET1rdtkjRw8C', 'Ashish Mishra', 'ACTIVE', TRUE, NOW() - INTERVAL '30 days', NOW());
 
 INSERT INTO user_roles (user_id, role_id) VALUES
 ('11111111-1111-1111-1111-111111111111', 1),
