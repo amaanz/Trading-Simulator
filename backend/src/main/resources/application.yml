@@ -1,10 +1,10 @@
 spring:
   application:
-    name: LedgerOne
+    name: tradingsim
   datasource:
-    url: "${DATABASE_JDBC_URL:jdbc:postgresql://${DATABASE_HOST:localhost}:${DATABASE_PORT:5432}/${DATABASE_NAME:ledgerone}}"
-    username: ${DATABASE_USERNAME:${DATABASE_USER:ledgerone}}
-    password: ${DATABASE_PASSWORD:ledgerone}
+    url: "${DATABASE_JDBC_URL:jdbc:postgresql://${DATABASE_HOST:localhost}:${DATABASE_PORT:5432}/${DATABASE_NAME:tradingsim}}"
+    username: ${DATABASE_USERNAME:${DATABASE_USER:tradingsim}}
+    password: ${DATABASE_PASSWORD:tradingsim}
   flyway:
     enabled: true
     locations: classpath:db/migration
@@ -23,7 +23,7 @@ spring:
 server:
   port: ${PORT:${SERVER_PORT:8080}}
 
-ledgerone:
+tradingsim:
   security:
     jwt-secret: ${JWT_SECRET:local-development-secret-change-me-to-at-least-32-bytes}
     access-token-minutes: ${ACCESS_TOKEN_MINUTES:20}
