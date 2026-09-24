@@ -1,10 +1,10 @@
-# LedgerOne
+# TradingSimulator
 
 Full-stack stock paper-trading platform with live quote search, buying-power checks, watchlists, trade history, JWT authentication, admin review tools, and a Spring Boot/PostgreSQL backend.
 
 ## Overview
 
-LedgerOne is a production-style paper trading app. A user signs in, receives one funded paper trading account with `$100,000` buying power, searches real stock symbols, reviews live quote data, places simulated buy/sell orders, tracks holdings, and monitors risk/account activity.
+TradingSimulator is a production-style paper trading app. A user signs in, receives one funded paper trading account with `$100,000` buying power, searches real stock symbols, reviews live quote data, places simulated buy/sell orders, tracks holdings, and monitors risk/account activity.
 
 The goal is not to be a brokerage. It is a recruiter-ready full-stack fintech project that demonstrates secure authentication, transactional backend workflows, database-backed trading state, live market-data integration, and a polished React dashboard.
 
@@ -103,8 +103,8 @@ The frontend is a Vite React app with:
 
 | Role | Email | Password |
 | --- | --- | --- |
-| User | `user@ledgerone.com` | `User123!` |
-| Admin | `admin@ledgerone.com` | `Admin123!` |
+| User | `user@TradingSimulator.com` | `User123!` |
+| Admin | `admin@TradingSimulator.com` | `Admin123!` |
 
 ## Run Locally
 
@@ -137,7 +137,7 @@ npm run dev
 Default local database:
 
 ```text
-jdbc:postgresql://localhost:5432/ledgerone
+jdbc:postgresql://localhost:5432/TradingSimulator
 ```
 
 ## Environment Variables
@@ -146,9 +146,9 @@ Backend:
 
 ```bash
 DATABASE_URL=
-DATABASE_JDBC_URL=jdbc:postgresql://localhost:5432/ledgerone
-DATABASE_USERNAME=ledgerone
-DATABASE_PASSWORD=ledgerone
+DATABASE_JDBC_URL=jdbc:postgresql://localhost:5432/TradingSimulator
+DATABASE_USERNAME=TradingSimulator
+DATABASE_PASSWORD=TradingSimulator
 JWT_SECRET=change-this-in-production
 ALLOWED_ORIGINS=http://localhost:5173,http://127.0.0.1:5173
 MARKET_LIVE_PRICES_ENABLED=true
@@ -202,4 +202,4 @@ Representative endpoints:
 
 ## Resume Summary
 
-LedgerOne is a full-stack stock paper-trading platform built with React, TypeScript, Spring Boot, PostgreSQL, JWT auth, Flyway, and live market-data integrations. It supports a funded single-account trading model, live stock search, buy/sell execution, buying-power validation, holdings and P/L tracking, watchlists, admin/audit workflows, and deployment across Vercel and Render.
+TradingSimulator is a full-stack stock paper-trading platform built with React, TypeScript, Spring Boot, PostgreSQL, JWT auth, Flyway, and live market-data integrations. It supports a funded single-account trading model, live stock search, buy/sell execution, buying-power validation, holdings and P/L tracking, watchlists, admin/audit workflows, and deployment across Vercel and Render.
