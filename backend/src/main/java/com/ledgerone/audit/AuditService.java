@@ -1,9 +1,9 @@
-package com.ledgerone.audit;
+package com.tradingsim.audit;
 
-import com.ledgerone.entity.AuditAction;
-import com.ledgerone.entity.AuditLog;
-import com.ledgerone.entity.UserAccount;
-import com.ledgerone.repository.AuditLogRepository;
+import com.tradingsim.entity.AuditAction;
+import com.tradingsim.entity.AuditLog;
+import com.tradingsim.entity.UserAccount;
+import com.tradingsim.repository.AuditLogRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
