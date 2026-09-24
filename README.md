@@ -181,15 +181,6 @@ npm run build
 
 Current focused test coverage includes JWT, Render database URL conversion, quote parsing/cache behavior, ticker validation, risk calculation, and trading/portfolio service workflows.
 
-## Deployment
-
-- Backend: Render Blueprint from `render.yaml`
-- Database: Render managed PostgreSQL
-- Frontend: Vercel project with root directory `frontend`
-- Frontend env: `VITE_API_BASE_URL=https://ledgerone-api-litx.onrender.com/api`
-- Backend CORS: `ALLOWED_ORIGINS=https://ledger-one-mocha.vercel.app,http://localhost:5173,http://127.0.0.1:5173`
-
-See [DEPLOYMENT.md](DEPLOYMENT.md) for the step-by-step Render and Vercel workflow.
 
 ## API Surface
 
